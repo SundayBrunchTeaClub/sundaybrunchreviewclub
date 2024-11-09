@@ -1,0 +1,361 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+  font-family: 'Georgia', serif;
+  color: #333;
+  background-color: #fdfcfb;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-bottom: 2px solid #ddd;
+}
+
+.logo {
+  font-family: 'Courier New', monospace;
+  font-size: 1.8em;
+  color: #a23e48;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #a23e48;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* End Header styling */
+
+/* Main content area */
+main {
+  padding: 30px;
+  background-color: #fff8f2;
+}
+
+/* Featured section on the home page */
+.featured {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.spotify-widget {
+  display: block;
+  width: 750px; /* Fixed width */
+  margin: 0 auto; /* Center it */
+}
+
+.album-cover {
+  display: none; /* Hide the album cover by default */
+  width: 40%;
+  border-radius: 12px;
+}
+
+.featured-content {
+  flex: 1; 
+  padding-left: 20px;
+}
+
+.featured h2 {
+  color: #a23e48;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.featured h3 {
+  color: #333;
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.featured p {
+  font-size: 1em;
+  color: #555;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #a23e48;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.read-more:hover {
+  background-color: #892034;
+}
+/* End Featured section */
+
+/* Latest reviews section on the home page */
+.latest-reviews {
+  background-color: #f4efea;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.latest-reviews h2 {
+  font-size: 1.6em;
+  color: #a23e48;
+  margin-bottom: 20px;
+}
+
+.review-item {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.review-item h3 {
+  color: #a23e48;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.review-item p {
+  color: #333;
+}
+/* End Latest reviews section */
+
+/* Review content styling for individual review pages */
+.review-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.review-content h2 {
+  margin-top: 20px;
+}
+
+/* Indentation for paragraphs in review content */
+.review-content p {
+  text-indent: 2em; 
+  max-width: 800px; /* Sets a maximum width for the content */
+  margin: 0 auto; /* Centers the content horizontally */
+  text-align: left; /* Aligns text to the left */
+  padding: 5px; /* Adds some padding for spacing */
+}
+/* End Review content styling */
+
+/* Tracklist and review highlights styling for review pages */
+.tracklist, .review-highlights {
+  list-style-type: none; /* Remove bullet points */
+  margin-top: 20px;;
+}
+/* End Tracklist and review highlights styling */
+
+/* About page styling */
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff8f2;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2em;
+  color: #a23e48;
+  margin-bottom: 20px;
+}
+
+.about p {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f4efea;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.team-member h3 {
+  color: #a23e48;
+  font-size: 1.4em;
+  margin: 0;
+}
+
+.team-member p {
+  margin: 0;
+}
+/* End About page styling */
+
+/* Old Reviews page styling */
+.reviews-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff8f2;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.reviews-list h1 {
+  font-size: 2em;
+  color: #a23e48;
+  margin-bottom: 15px;
+}
+
+.reviews-list p {
+  color: #555;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.reviews-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reviews-list li {
+  margin-bottom: 10px;
+}
+
+.reviews-list a {
+  color: #a23e48;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.reviews-list a:hover {
+  text-decoration: underline;
+}
+/* End Old Reviews page styling */
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* End Footer styling */
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+  /* Responsive header styling */
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+  /* End Responsive header styling */
+
+  /* Responsive featured section adjustments */
+  .featured {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Hide the Spotify widget on mobile */
+  .spotify-widget {
+    display: none;
+  }
+  
+  /* Show the album cover image on mobile */
+  .album-cover {
+    display: block;
+    width: 80%; /* Adjust width for mobile view */
+    margin-bottom: 20px;
+  }
+
+  .featured-content {
+    max-width: 100%;
+    text-align: center;
+    padding: 0 20px;
+  }
+  /* End Responsive featured section adjustments */
+
+  /* Responsive latest reviews adjustments */
+  .latest-reviews {
+    padding: 15px;
+  }
+
+  .review-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-item img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .review-item h3 {
+    text-align: center;
+    font-size: 1.1em;
+  }
+
+  .review-item p {
+    text-align: center;
+    font-size: 0.9em;
+  }
+  /* End Responsive latest reviews adjustments */
+
+  /* Responsive team-member adjustments for About page */
+  .team-member {
+    flex-direction: column;
+    text-align: center;
+  }
+  /* End Responsive team-member adjustments */
+}
+/* End Responsive adjustments */
