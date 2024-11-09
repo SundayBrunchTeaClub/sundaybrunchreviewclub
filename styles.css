@@ -24,8 +24,9 @@ header {
 }
 
 .logo {
-  font-family: 'Courier New', monospace;
-  font-size: 1.8em;
+  font-family: 'Georgia', serif; /* Matches 'Featured Review' font */
+  font-weight: bold;
+  font-size: 2em; /* Adjust size to match 'Featured Review' */
   color: #5b3b2e; /* Brown */
 }
 
@@ -49,6 +50,7 @@ nav ul li a {
 main {
   padding: 30px;
   background-color: #fff8f2;
+  min-height: calc(100vh - 160px); /* Adjusts for header and footer height */
 }
 
 /* Featured section on the home page */
@@ -187,6 +189,10 @@ main {
   margin-bottom: 20px;
 }
 
+.about h2 {
+  color: #5b3b2e;
+}
+
 .about p {
   color: #333;
   line-height: 1.6;
@@ -267,8 +273,8 @@ main {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #333;
-  color: #fff;
+  background-color: #cdf3f0;
+  color: #5b3b2e;
   font-size: 0.9em;
 }
 
@@ -359,4 +365,3 @@ footer a:hover {
   /* End Responsive team-member adjustments */
 }
 /* End Responsive adjustments */
-
