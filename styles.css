@@ -18,7 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f4f4;
+  background-color: #cdf3f0; /* Light cyan/blue for top bar */
   padding: 20px;
   border-bottom: 2px solid #ddd;
 }
@@ -26,7 +26,7 @@ header {
 .logo {
   font-family: 'Courier New', monospace;
   font-size: 1.8em;
-  color: #a23e48;
+  color: #5b3b2e; /* Brown */
 }
 
 nav ul {
@@ -39,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #a23e48;
+  color: #5b3b2e; /* Brown */
   text-decoration: none;
   font-weight: bold;
 }
@@ -77,7 +77,7 @@ main {
 }
 
 .featured h2 {
-  color: #a23e48;
+  color: #5b3b2e; /* Brown */
   font-size: 1.4em;
   margin-bottom: 10px;
 }
@@ -96,7 +96,7 @@ main {
 .read-more {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #a23e48;
+  background-color: #5b3b2e; /* Brown */
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -105,7 +105,7 @@ main {
 }
 
 .read-more:hover {
-  background-color: #892034;
+  background-color: #8ba282; /* Green for hover effect */
 }
 /* End Featured section */
 
@@ -118,7 +118,7 @@ main {
 
 .latest-reviews h2 {
   font-size: 1.6em;
-  color: #a23e48;
+  color: #5b3b2e; /* Brown */
   margin-bottom: 20px;
 }
 
@@ -133,7 +133,7 @@ main {
 }
 
 .review-item h3 {
-  color: #a23e48;
+  color: #5b3b2e; /* Brown */
   font-size: 1.2em;
   margin-bottom: 5px;
 }
@@ -167,7 +167,7 @@ main {
 /* Tracklist and review highlights styling for review pages */
 .tracklist, .review-highlights {
   list-style-type: none; /* Remove bullet points */
-  margin-top: 20px;;
+  margin-top: 20px;
 }
 /* End Tracklist and review highlights styling */
 
@@ -183,7 +183,7 @@ main {
 
 .about h1 {
   font-size: 2em;
-  color: #a23e48;
+  color: #5b3b2e; /* Brown */
   margin-bottom: 20px;
 }
 
@@ -211,7 +211,7 @@ main {
 }
 
 .team-member h3 {
-  color: #a23e48;
+  color: #5b3b2e; /* Brown */
   font-size: 1.4em;
   margin: 0;
 }
@@ -233,7 +233,7 @@ main {
 
 .reviews-list h1 {
   font-size: 2em;
-  color: #a23e48;
+  color: #5b3b2e; /* Brown */
   margin-bottom: 15px;
 }
 
@@ -253,7 +253,7 @@ main {
 }
 
 .reviews-list a {
-  color: #a23e48;
+  color: #5b3b2e; /* Brown */
   text-decoration: none;
   font-weight: bold;
 }
@@ -359,3 +359,4 @@ footer a:hover {
   /* End Responsive team-member adjustments */
 }
 /* End Responsive adjustments */
+
