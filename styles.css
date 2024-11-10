@@ -269,6 +269,15 @@ main {
 }
 /* End Old Reviews page styling */
 
+/* Logo Editing */
+
+.logo-img {
+  height: 40px; /* Adjust height as needed */
+  width: auto;   /* Maintains aspect ratio */
+  margin-right: 10px; /* Space between image and text */
+}
+
+
 /* Footer styling */
 footer {
   text-align: center;
@@ -300,6 +309,12 @@ footer a:hover {
     font-size: 1.5em;
     margin-bottom: 10px;
   }
+
+  .logo-img {
+    height: 25px; /* Smaller height for mobile screens */
+    margin-right: 5px; /* Less space to fit in narrow screens */
+  }
+
 
   nav ul {
     flex-direction: column;
@@ -364,4 +379,7 @@ footer a:hover {
   }
   /* End Responsive team-member adjustments */
 }
+
+
 /* End Responsive adjustments */
+
